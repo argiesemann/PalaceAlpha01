@@ -19,18 +19,18 @@ public enum Suit
 	public static final int DIAMONDS_INT = 3;
 	public static final int HEARTS_INT =   4;
 
-	private int suit_num;
+	private int int_value;
 
-	Suit(int suit_num)
+	Suit(int int_value)
 	{
-		this.suit_num = suit_num;
+		this.int_value = int_value;
 	}//END: Suit() enum constructor
 
 
-	public int get_suit_num()
+	public int get_int_value()
 	{
-		return this.suit_num;
-	}//END: get_suit_num() method
+		return this.int_value;
+	}//END: get_int_value() method
 
 	public static Suit int_to_suit(int num)
 	{
